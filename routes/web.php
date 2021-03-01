@@ -8,6 +8,8 @@ Route::view('/', 'welcome');
 
 Route::view('contact', 'contact');
 Route::view('a-propos', 'a-propos');
+Route::view('acceuil', 'acceuil');
 Route::get('test', [test::class, 'test']);
 
 Route::get('/clients', 'ClientsController@list');
+
