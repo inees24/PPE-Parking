@@ -1,7 +1,7 @@
 ALTER TABLE RESERVATION
-ADD CONSTRAINT FK_reservation_utilisateur FOREIGN KEY(numUtilisateur)
-REFERENCES UTILISATEUR(numUtilisateur);
+ADD CONSTRAINT FK_reservation_utilisateur FOREIGN KEY(numUtilisateur )
+REFERENCES UTILISATEUR(numUtilisateur );
 
 ALTER TABLE RESERVATION
-ADD CONSTRAINT FK_reservation_place FOREIGN KEY(num_place)
-REFERENCES PLACE(num_place);
+ADD CONSTRAINT FK_reservation_place FOREIGN KEY(num_place )
+REFERENCES PLACE(num_place );
