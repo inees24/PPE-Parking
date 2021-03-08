@@ -9,7 +9,7 @@ use App\Http\Controllers\ConnexionController;
 
 Route::view('contact', 'contact');
 Route::view('a-propos', 'a-propos');
-Route::view('acceuil', 'acceuil');
+Route::view('inscription', 'inscription');
 Route::get('test', [test::class, 'test']);
 
 // Route::get('/connexion', 'ConnexionController@formulaire');
