@@ -12,4 +12,5 @@ class utilisateur extends Model
     {
         $query->where('is_admin', true);
     }
+
 }

@@ -1,62 +1,75 @@
 <html>
    <head>
       <title>Page d'inscription</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
       <meta charset="utf-8">
    </head>
    <body>
       <div align="center">
-         <h2>Inscription</h2>
+         <h2><u>Inscription</u></h2>
          <br /><br />
-         <form method="POST" action="">
-            <table>
-               <tr>
-                  <td align="right">
-                     <label for="pseudo">Pseudo :</label>
-                  </td>
-                  <td>
-                     <input type="text" placeholder="Votre pseudo" id="pseudo" name="pseudo" value="<?php if(isset($pseudo)) { echo $pseudo; } ?>" />
-                  </td>
-               </tr>
-               <tr>
-                  <td align="right">
-                     <label for="mail">Mail :</label>
-                  </td>
-                  <td>
-                     <input type="email" placeholder="Votre mail" id="mail" name="mail" value="<?php if(isset($mail)) { echo $mail; } ?>" />
-                  </td>
-               </tr>
-               <tr>
-                  <td align="right">
-                     <label for="mail2">Confirmation du mail :</label>
-                  </td>
-                  <td>
-                     <input type="email" placeholder="Confirmez votre mail" id="mail2" name="mail2" value="<?php if(isset($mail2)) { echo $mail2; } ?>" />
-                  </td>
-               </tr>
-               <tr>
-                  <td align="right">
-                     <label for="mdp">Mot de passe :</label>
-                  </td>
-                  <td>
-                     <input type="password" placeholder="Votre mot de passe" id="mdp" name="mdp" />
-                  </td>
-               </tr>
-               <tr>
-                  <td align="right">
-                     <label for="mdp2">Confirmation du mot de passe :</label>
-                  </td>
-                  <td>
-                     <input type="password" placeholder="Confirmez votre mdp" id="mdp2" name="mdp2" />
-                  </td>
-               </tr>
-               <tr>
-                  <td></td>
-                  <td align="center">
-                     <br />
-                     <input type="submit" name="forminscription" value="Je m'inscris" />
-                  </td>
-               </tr>
-            </table>
+         <form action="/inscription" method="post" class="section">
+            <div align="center">
+                <label class="label">Nom :</label>
+                <div class="control">
+                    <input class="input-group-text" type="Nom" name="Nom" value="">
+                </div>
+            </div>
+            <div align="center">
+                <label class="label">Prenom :</label>
+                <div class="control">
+                    <input class="input-group-text" type="Prenom" name="Prenom" value="">
+                </div>
+            </div>
+            <div align="center">
+                <label class="label">Numéro de téléphone :</label>
+                <div class="control">
+                    <input class="input-group-text" type="Tel" name="Tel" value="">
+                </div>
+            </div>
+            <div align="center">
+                <label class="label">Adresse :</label>
+                <div class="control">
+                    <input class="input-group-text" type="Adresse" name="Adresse" value="">
+                </div>
+            </div>
+            <div align="center">
+                <label class="label">Mail :</label>
+                <div class="control">
+                    <input class="input-group-text" type="Mail" name="Mail">
+                </div>
+
+                    <p class="help is-danger"></p>
+            </div>
+            <div align="center">
+                <label class="label">Confirmation du mail :</label>
+                <div class="control">
+                    <input class="input-group-text" type="Mail2" name="Mail2" value="">
+                </div>
+            </div>
+
+            <div align="center">
+                <label class="label">Mot de passe :</label>
+                <div class="control">
+                    <input class="input-group-text" type="mdp" name="mdp">
+                </div>
+
+                    <p class="help is-danger"></p>
+            </div>
+            <div align="center">
+                <label class="label">Confirmation du mot de passe :</label>
+                <div class="control">
+                    <input class="input-group-text" type="mdp2" name="mdp2" value="">
+                </div>
+            </div>
+
+        </br>
+            <div align="center">
+                <div class="control">
+                    <button class="btn btn-outline-info" type="submit">Je m'inscris</button>
+                </div>
+            </div>
+
          </form>
 		 <?php
 			if(isset($erreur))
@@ -67,3 +80,5 @@
       </div>
    </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
