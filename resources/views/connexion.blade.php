@@ -17,10 +17,12 @@
                 <input class="input-group-text" type="password" name="password">
             </div>
         </div>
-
+    </br>
         <div align="center">
             <div class="control">
-                <button class="btn btn-outline-info" type="submit">Se connecter</button>
+                <a href="/pagePrincipale" class="btn btn-outline-info">Connexion</a>
+                <a href="/inscription" class="btn btn-outline-info">S'inscrire</a>
+                {{-- <button class="btn btn-outline-info" type="submit" formaction="/inscription">S'inscrire</button> --}}
             </div>
         </div>
     </form>

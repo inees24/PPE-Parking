@@ -8,7 +8,7 @@
       <div align="center">
          <h2><u>Inscription</u></h2>
          <br /><br />
-         <form action="/inscription" method="post" class="section">
+         <form action="" method="post" class="section">
             <div align="center">
                 <label class="label">Nom :</label>
                 <div class="control">
@@ -66,6 +66,7 @@
         </br>
             <div align="center">
                 <div class="control">
+
                     <button class="btn btn-outline-info" type="submit">Je m'inscris</button>
                 </div>
             </div>
