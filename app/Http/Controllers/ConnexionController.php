@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ConnexionController extends Controller
 {
@@ -21,5 +22,21 @@ class ConnexionController extends Controller
         // À faire : vérification que l'email et le mot de passe sont corrects.
 
         return 'Traitement formulaire connexion';
+    }
+    public function inscription()
+    {
+        $req = DB::select('select MAX(numUtilisateur) AS "id" from UTILISATEUR');
+        foreach ($req as $reqdata ) {
+            $id = $reqdata -> id;
+        }
+        $id++;
+        $nom = $_POST["Nom"];
+        $prenom = $_POST["Prenom"];
+        $tel = $_POST["Tel"];
+        $mail = $_POST["Mail"];
+        $adresse = $_POST ["Adresse"];
+        $mdp = ["mdp"];
+        DB::insert("insert into UTILISATEUR values ('$id', '$mdp', '$nom', '$prenom', '$tel', '$mail', '$adresse')");
+        return "ça marche";
     }
 }

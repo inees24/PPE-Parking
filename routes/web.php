@@ -18,3 +18,4 @@ Route::get('test', [test::class, 'test']);
 // Route::post('/connexion', 'ConnexionController@traitement');
 Route::get('/clients', 'ClientsController@list');
 Route::get('/', [ConnexionController::class, 'formulaire']);
+Route::post('inscriptionexe', [ConnexionController::class, 'inscription']);

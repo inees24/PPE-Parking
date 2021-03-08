@@ -8,7 +8,17 @@
       <div align="center">
          <h2><u>Inscription</u></h2>
          <br /><br />
+<<<<<<< Updated upstream
          <form action="" method="post" class="section">
+=======
+<<<<<<< HEAD
+         <form action="/inscriptionexe" method="post" class="section">
+            @csrf
+
+=======
+         <form action="" method="post" class="section">
+>>>>>>> c91371c73d9628172e4197edb6205b8fbfdacaa2
+>>>>>>> Stashed changes
             <div align="center">
                 <label class="label">Nom :</label>
                 <div class="control">
