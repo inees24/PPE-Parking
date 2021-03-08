@@ -15,9 +15,10 @@ class Reservation extends Migration
     {
         Schema::create('reservation', function (Blueprint $table) {
             $table->id();
-            $table->date('dateDebut');
-            $table->date('dateFin');
-            $table->timestamps();
+            $table->string('numUtilisateur');
+            $table->date('date_debut');
+            $table->date('date_fin');
+            $table->int('num_place');
         });
     }
 

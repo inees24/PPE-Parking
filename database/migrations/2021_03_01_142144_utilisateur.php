@@ -15,12 +15,15 @@ class Utilisateur extends Migration
     {
         Schema::create('utilisateur', function (Blueprint $table) {
             $table->id();
+            $table->string('mdp');
             $table->string('nom');
             $table->string('prenom');
             $table->integer('tel');
+            $table->string('mail');
             $table->string('adresse');
+            $table->integer('cp');
             $table->boolean('estAdmin');
-            $table->integer('placeDansLaListeAttente');
+            $table->integer('liste_attente');
             $table->timestamps();
         });
     }
