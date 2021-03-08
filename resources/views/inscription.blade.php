@@ -57,7 +57,7 @@
             <div align="center">
                 <label class="label">Mot de passe :</label>
                 <div class="control">
-                    <input class="input-group-text" type="mdp" name="mdp">
+                    <input class="input-group-text" type="password" name="mdp">
                 </div>
 
                     <p class="help is-danger"></p>
@@ -65,7 +65,7 @@
             <div align="center">
                 <label class="label">Confirmation du mot de passe :</label>
                 <div class="control">
-                    <input class="input-group-text" type="mdp2" name="mdp2" value="">
+                    <input class="input-group-text" type="password" name="mdp2" value="">
                 </div>
             </div>
 
