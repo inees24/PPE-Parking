@@ -35,46 +35,61 @@ class DatabaseSeeder extends Seeder
                 'idParking' => 4 ,
                 'numeroPlace'=> '4A',
             ),
+            array(
+                'idParking' => 5 ,
+                'numeroPlace'=> '5A',
+            ),
+            array(
+                'idParking' => 6 ,
+                'numeroPlace'=> '6A',
+            ),
+            array(
+                'idParking' => 7 ,
+                'numeroPlace'=> '7A',
+            ),
+            array(
+                'idParking' => 8 ,
+                'numeroPlace'=> '8A',
+            ),
+            array(
+                'idParking' => 9 ,
+                'numeroPlace'=> '9A',
+            ),
+            array(
+                'idParking' => 10 ,
+                'numeroPlace'=> '10A',
+            ),
         ));
         utilisateur::insert(array(
             array(
-                'idUtilisateur' => 1, 'nomUtilisateur' =>'HugoA','nom' =>'Araujo', 'Prenom' => 'Hugo','mail'=>'araujohugo@msn.com', 'motDePasseUtilisateur' => Hash::make('hugoContreInjections'), 'estInscrit' => true, 'isAdministrateur' => true ,
+                'idUtilisateur' => 1, 'nomUtilisateur' =>'root','nom' =>'root', 'Prenom' => 'root','mail'=>'root.gmail.com', 'motDePasseUtilisateur' => Hash::make('root'), 'estInscrit' => true, 'isAdministrateur' => true ,
             ),
             array(
-                'idUtilisateur' => 2, 'nomUtilisateur' => 'GianniB','nom' =>'Bosio', 'Prenom' => 'Gianni','mail'=>'gianni.bosio@hotmail.com', 'motDePasseUtilisateur' => Hash::make('gianniBosioEn'), 'estInscrit' => false, 'isAdministrateur' => false ,
+                'idUtilisateur' => 2, 'nomUtilisateur' => 'bubu','nom' =>'bubu', 'Prenom' => 'bubu','mail'=>'bubu@gmail.com', 'motDePasseUtilisateur' => Hash::make('bubu'), 'estInscrit' => false, 'isAdministrateur' => false ,
             ),
             array(
-                'idUtilisateur' => 3, 'nomUtilisateur' => 'RomainT','nom' =>'Thiriot', 'Prenom' => 'Romain','mail'=>'thiriot2002@gmail.com', 'motDePasseUtilisateur' => Hash::make('thiriotMdp'), 'estInscrit' => true, 'isAdministrateur' => false ,
+                'idUtilisateur' => 3, 'nomUtilisateur' => 'toto','nom' =>'toto', 'Prenom' => 'toto','mail'=>'toto@gmail.com', 'motDePasseUtilisateur' => Hash::make('toto'), 'estInscrit' => true, 'isAdministrateur' => false ,
             ),
             array(
-                'idUtilisateur' => 4, 'nomUtilisateur' => 'JulienB','nom' =>'Bois', 'Prenom' => 'Julien','mail'=>'julien.bois.techer@gmail.com', 'motDePasseUtilisateur' => Hash::make('julienBdd'), 'estInscrit' => true, 'isAdministrateur' => false ,
+                'idUtilisateur' => 4, 'nomUtilisateur' => 'tata','nom' =>'tata', 'Prenom' => 'tata','mail'=>'tata@gmail.com', 'motDePasseUtilisateur' => Hash::make('tata'), 'estInscrit' => true, 'isAdministrateur' => false ,
             ),
             array(
-                'idUtilisateur' => 5, 'nomUtilisateur' => 'AlexandreM','nom' =>'Mesle', 'Prenom' => 'Alexandre','mail'=>'moodle.alexandreMesle@gmail.com', 'motDePasseUtilisateur' => Hash::make('haveIBeenPawned'), 'estInscrit' => true, 'isAdministrateur' => false ,
+                'idUtilisateur' => 5, 'nomUtilisateur' => 'tutu','nom' =>'tutu', 'Prenom' => 'tutu','mail'=>'tutu@gmail.com', 'motDePasseUtilisateur' => Hash::make('tutu'), 'estInscrit' => true, 'isAdministrateur' => false ,
             ),
             array(
-                'idUtilisateur' => 6, 'nomUtilisateur' => 'BenoitL','nom' =>'LaGrangier', 'Prenom' => 'Benoit','mail'=>'Benoit.lagrangier@gmail.com', 'motDePasseUtilisateur' => Hash::make('benoitLagrangier'), 'estInscrit' => true, 'isAdministrateur' => false ,
+                'idUtilisateur' => 6, 'nomUtilisateur' => 'baba','nom' =>'baba', 'Prenom' => 'baba','mail'=>'baba@gmail.com', 'motDePasseUtilisateur' => Hash::make('baba'), 'estInscrit' => true, 'isAdministrateur' => false ,
             ),
             array(
-                'idUtilisateur' => 7, 'nomUtilisateur' => 'LisaK','nom' => 'Lisa', 'Prenom' => 'klarons','mail'=>'lisaKlarons@gmail.com', 'motDePasseUtilisateur' => Hash::make('lisarvations'), 'estInscrit' => true, 'isAdministrateur' => false ,
+                'idUtilisateur' => 7, 'nomUtilisateur' => 'fifi','nom' => 'fifi', 'Prenom' => 'fifi','mail'=>'fifi@gmail.com', 'motDePasseUtilisateur' => Hash::make('fifi'), 'estInscrit' => true, 'isAdministrateur' => false ,
             ),
             array(
-                'idUtilisateur' => 8, 'nomUtilisateur' => 'JacquesI','nom' =>'Illinois', 'Prenom' => 'Jacques','mail'=>'JacquesIllinois@gmail.com', 'motDePasseUtilisateur' => Hash::make('illinoisUsaJacques'), 'estInscrit' => true, 'isAdministrateur' => false ,
+                'idUtilisateur' => 8, 'nomUtilisateur' => 'fofo','nom' =>'fofo', 'Prenom' => 'fofo','mail'=>'fofo@gmail.com', 'motDePasseUtilisateur' => Hash::make('fofo'), 'estInscrit' => true, 'isAdministrateur' => false ,
             ),
             array(
-                'idUtilisateur' => 9, 'nomUtilisateur' => 'BenjaminP','nom' =>'Pliort', 'Prenom' => 'Benjamin','mail'=>'pliortB@gmail.com', 'motDePasseUtilisateur' => Hash::make('pliortDoitur'), 'estInscrit' => true, 'isAdministrateur' => false ,
+                'idUtilisateur' => 9, 'nomUtilisateur' => 'fafa','nom' =>'fafa', 'Prenom' => 'fafa','mail'=>'fafa@gmail.com', 'motDePasseUtilisateur' => Hash::make('fafa'), 'estInscrit' => true, 'isAdministrateur' => false ,
             ),
             array(
-                'idUtilisateur' => 10, 'nomUtilisateur' => 'AlexisM','nom' =>'Momuoir', 'Prenom' => 'Alexis','mail'=>'momuoir@gmail.com', 'motDePasseUtilisateur' => Hash::make('momentdansLeNoir'), 'estInscrit' => true, 'isAdministrateur' => false ,
-            ),
-            array(
-                'idUtilisateur' => 11, 'nomUtilisateur' => 'FabriceF','nom' =>'Flibustier', 'Prenom' => 'Fabrice','mail'=>'fabriceJournal@gmail.com', 'motDePasseUtilisateur' => Hash::make('flibusteurPereEnFils'), 'estInscrit' => true, 'isAdministrateur' => false ,
-            ),
-            array(
-                'idUtilisateur' => 12, 'nomUtilisateur' => 'KevinV','nom' =>'VonTron', 'Prenom' => 'Kevin','mail'=>'kevinvon@gmail.com', 'motDePasseUtilisateur' => Hash::make('vononmpd'), 'estInscrit' => true, 'isAdministrateur' => false ,
-            ),
-            array(
-                'idUtilisateur' => 13, 'nomUtilisateur' => 'AmidouD','nom' =>'Diallo', 'Prenom' => 'Amidou','mail'=>'amidouDiallo@gmail.com', 'motDePasseUtilisateur' => Hash::make('dialphone'), 'estInscrit' => true, 'isAdministrateur' => false ,
+                'idUtilisateur' => 10, 'nomUtilisateur' => 'nono','nom' =>'nono', 'Prenom' => 'nono','mail'=>'nono@gmail.com', 'motDePasseUtilisateur' => Hash::make('nono'), 'estInscrit' => true, 'isAdministrateur' => false ,
             ),
         ));
         reservation::insert(array(
