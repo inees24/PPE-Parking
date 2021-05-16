@@ -8,7 +8,7 @@ $valide = 0;
 @extends('head.user')
 @section('content')
 <center>
-    <h2> Vos Réservations </h2>
+    <h2 style="color:#9500f9" > Vos Réservations </h2>
 </center>
 <br>
 @if ($dbreserv[0] == 0)

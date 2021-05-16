@@ -8,7 +8,7 @@
         <input type="hidden" name="id" value={{$_POST['id']}}>
         <button type="submit" class="btn btn-info">Voir demandes d'inscription</button>
     </form>
-    <h3 align="center" style="color:#00DFF9">LISTE DES UTILISATEURS</h3>
+    <h3 align="center" style="color:#9500f9">LISTE DES UTILISATEURS</h3>
 </div>
     <table class="table">
 

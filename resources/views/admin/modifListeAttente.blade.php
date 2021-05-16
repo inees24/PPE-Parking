@@ -1,7 +1,7 @@
 @extends('head.admin')
 @section('content')
 <div class="shadow-lg p-3 mb-5 bg-white rounded">
-    <h3 align="center" style="color:#00DFF9" ;>MODIFICATION DE LA LISTE D'ATTENTE</h3>
+    <h3 align="center" style="color:#9500f9" ;>MODIFICATION DE LA LISTE D'ATTENTE</h3>
 </div>
 <br>
 

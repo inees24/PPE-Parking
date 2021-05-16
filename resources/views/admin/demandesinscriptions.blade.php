@@ -3,7 +3,7 @@
 
 <div style="text-align: center;">
 <div class="shadow-lg p-3 mb-5 bg-white rounded">
-    <h3 align="center" style="color:#00DFF9";>DEMANDES INSCRIPTIONS</h3>
+    <h3 align="center" style="color:#9500f9";>DEMANDES INSCRIPTIONS</h3>
     <br><br>
     <a href = "toutaccepter" class="btn btn-primary">Accepter toutes les inscriptions </a>
     <a href = "toutrefuser" class="btn btn-primary">Refuser toutes les inscriptions </a>

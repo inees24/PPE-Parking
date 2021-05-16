@@ -1,7 +1,7 @@
 @extends('head.admin')
 @section('content')
 <div class="shadow-lg p-3 mb-5 bg-white rounded">
-    <h3 align="center" style="color:#00DFF9" ;>LISTE DES RESERVATIONS</h3>
+    <h3 align="center" style="color:#9500f9" ;>LISTE DES RESERVATIONS</h3>
 </div>
 <div class="container mb-3 mt-3">
     @if ($reservNULL == 1)
