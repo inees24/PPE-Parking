@@ -62,7 +62,7 @@ class DatabaseSeeder extends Seeder
         ));
         utilisateur::insert(array(
             array(
-                'idUtilisateur' => 1, 'nomUtilisateur' =>'root','nom' =>'root', 'Prenom' => 'root','mail'=>'root.gmail.com', 'motDePasseUtilisateur' => Hash::make('root'), 'estInscrit' => true, 'isAdministrateur' => true ,
+                'idUtilisateur' => 1, 'nomUtilisateur' =>'root','nom' =>'root', 'Prenom' => 'root','mail'=>'root@gmail.com', 'motDePasseUtilisateur' => Hash::make('root'), 'estInscrit' => true, 'isAdministrateur' => true ,
             ),
             array(
                 'idUtilisateur' => 2, 'nomUtilisateur' => 'bubu','nom' =>'bubu', 'Prenom' => 'bubu','mail'=>'bubu@gmail.com', 'motDePasseUtilisateur' => Hash::make('bubu'), 'estInscrit' => false, 'isAdministrateur' => false ,
