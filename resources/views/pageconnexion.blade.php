@@ -4,7 +4,7 @@
     @if (isset($error) && $error == 1)
         <center>
             <p class="bg-light border border-danger">
-                Erreur dans le nom d'utilisateur ou tu mot de passe
+                Erreur dans le nom d'utilisateur ou du mot de passe
             </p>
         </center>
     @elseif(isset($error) && $error == 2)
